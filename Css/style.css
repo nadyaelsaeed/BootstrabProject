@@ -1,0 +1,42 @@
+.home{
+    background-image: url(../img/bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    text-align: center;
+}
+.home1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0, 0.6);
+    width: 100%;
+    height: 100%;
+  
+}
+
+.home2 h2::after{
+    content: "|";
+    animation-name: type;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes type{
+    0%{content: "|";}
+    10%{content: "F|";}
+    20%{content: "Fr|";}
+    30%{content: "Fro|";}
+    40%{content: "Fron|";}
+    50%{content: "Front|";}
+    60%{content: "Fron|";}
+    70%{content: "Fro|";}
+    80%{content: "Fr|";}
+    90%{content: "F|";}
+    100%{content: "|";}
+}
+/* Sec5:Form */
+.Form:hover{
+    font-size: 70px;
+    color: blueviolet;
+}
